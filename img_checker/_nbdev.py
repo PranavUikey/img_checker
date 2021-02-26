@@ -2,9 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"get_files": "00_core.ipynb",
-         "get_images_path": "00_core.ipynb",
-         "notebook_json": "00_core.ipynb"}
+index = {"get_files": "core.ipynb",
+         "get_images_path": "core.ipynb",
+         "notebook_json": "core.ipynb"}
 
 modules = ["core.py"]
 
