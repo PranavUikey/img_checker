@@ -48,7 +48,7 @@ def get_images_path(dct):
     return all_paths
 
 # Cell
-def notebook_json():
+def notebook_json(path):
     """Create a Function to read notebook as json and get the list of all the images used in the notebook"""
     img_paths = []
     fns = []
