@@ -3,6 +3,10 @@
 __all__ = ['get_files', 'get_images_path', 'notebook_json']
 
 # Cell
+import json, re, os
+from  pathlib import Path
+
+# Cell
 def _get_files(p, fs, extensions=None):
     p = Path(p)
     res = [p/f for f in fs if not f.startswith('.')
@@ -44,7 +48,7 @@ def get_images_path(dct):
     return all_paths
 
 # Cell
-def notebook_json(self):
+def notebook_json():
     """Create a Function to read notebook as json and get the list of all the images used in the notebook"""
     img_paths = []
     fns = []
