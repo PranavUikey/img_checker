@@ -48,7 +48,7 @@ def notebook_json(self):
     """Create a Function to read notebook as json and get the list of all the images used in the notebook"""
     img_paths = []
     fns = []
-    path = Path(self.path)
+    path = Path(path)
 
     if path.is_file():
         fns.append(path)
