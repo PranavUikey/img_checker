@@ -8,8 +8,8 @@ index = {"get_files": "core.ipynb",
 
 modules = ["core.py"]
 
-doc_url = "https://{user}.github.io/img_checker/"
+doc_url = "https://PranavUikey.github.io/img_checker/"
 
-git_url = "https://github.com/{user}/img_checker/tree/{branch}/"
+git_url = "https://github.com/PranavUikey/img_checker/tree/master/"
 
 def custom_doc_links(name): return None
